@@ -4,8 +4,8 @@ services:
   postgres:
     image: postgres:13
     environment:
-      POSTGRES_USER: quarkus
-      POSTGRES_PASSWORD: quarkus
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
       POSTGRES_DB: fipedb
     ports:
       - "5432:5432"
